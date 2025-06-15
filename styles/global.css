@@ -36,3 +36,9 @@
     --text-sm: 14px/140% regular var(var(--maven-font));
 
 }
+
+.container{
+    max-width: 1366px;
+    padding-inline: 163px;
+    margin-inline: auto;
+}
