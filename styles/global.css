@@ -22,23 +22,37 @@
     /* Tipografia */
     /* Asap */
     --asap-font: "Asap", sans-serif;
-    --title-lg: 56px/120% bold var(--asap-font);
-    --title-md: 24px/120% bold var(--asap-font);
-    --title-sm: 16px/120% bold var(--asap-font);
+    --title-lg: bold 56px/120% var(--asap-font);
+    --title-sm: bold 16px/120% var(--asap-font);
+    --title-md: bold 24px/120% var(--asap-font);
 
     /* Inconsolata */
     --inconsolata-font: "Inconsolata", monospace;
-    --subtitle: 20px/120% regular var(--inconsolata-font);
+    --subtitle: normal 400 20px/120% var(--inconsolata-font);
 
     /* Maven Pro */
     --maven-font: "Maven Pro", sans-serif; 
-    --text-md: 16px/140% regular var(var(--maven-font));
-    --text-sm: 14px/140% regular var(var(--maven-font));
+    --text-md: normal 16px/140% var(--maven-font);
+    --text-sm: normal 14px/140% var(--maven-font);
 
 }
 
 .container{
-    max-width: 1366px;
-    padding-inline: 163px;
-    margin-inline: auto;
+    width: 1366px;
+    /* margin-inline: auto; */
+}
+h2{
+    font: var(--subtitle);
+    color: var(--gray-500);
+    padding-bottom: 8px;
+}
+h1{
+    font: var(--title-lg);
+    color: var(--gray-600);
+    padding-bottom: 8px;
+}
+p{
+    font: var(--text-sm);
+    color: var(--gray-400);
+    padding-bottom: 8px;
 }

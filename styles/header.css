@@ -1,0 +1,45 @@
+header{
+    background-image: url(../assets/images/Background_Intro.png);
+    background-size: 100%;
+    object-fit: cover;
+}
+#info{
+    padding-block: 140px;
+    padding-inline: 163px;
+    div{
+        display: flex;
+        justify-content: center;
+        padding-inline: 180px;
+    }
+    
+    #avatar{
+        position: relative;
+        padding-bottom: 56px;
+    }
+
+    #avatar img:nth-child(1){
+        width: 87px;
+        height: 87px;
+        border-radius: 50%;
+        border: 3px solid var(--red);
+        padding: 3px;
+        object-fit: cover;
+        
+    }
+    #avatar img:nth-child(2){
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        bottom: 40%;
+        right: 45%;        
+    }
+
+    #text{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+}
