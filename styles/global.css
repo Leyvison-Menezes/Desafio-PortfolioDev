@@ -36,23 +36,12 @@
     --text-sm: normal 14px/140% var(--maven-font);
 
 }
-
-.container{
-    width: 1366px;
-    /* margin-inline: auto; */
-}
-.grid{
-    display: grid;
-}
-.gap24{
-    gap: 24px;
-}
 h4{
     font: var(--title-sm);
     color: var(--gray-600);
 }
 h3{
-    font: var(--text-md);
+    font: var(--title-md);
     color: var(--gray-600);
 }
 h2{

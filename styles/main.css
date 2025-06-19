@@ -1,4 +1,43 @@
 main{
     background-color: var(--gray-200);
     padding: 72px 120px 144px;
+    justify-items: center;
+}
+#centerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 56px;
+    h2{
+        color: var(--red);
+    }
+}
+
+#gridbox{
+    width: 1040px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    a{
+        width: 330px;
+        height: 280px;
+        background-color: var(--gray-300);
+        border-radius: 12px;
+        padding: 12px 12px 17px;
+
+        text-decoration: none;
+    }
+    a img{
+        width: 306px;
+        height: 156px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    #title-item{
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 }

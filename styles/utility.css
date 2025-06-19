@@ -1,0 +1,10 @@
+.container{
+    width: 1366px;
+    /* margin-inline: auto; */
+}
+.grid{
+    display: grid;
+}
+.gap24{
+    gap: 24px;
+}
