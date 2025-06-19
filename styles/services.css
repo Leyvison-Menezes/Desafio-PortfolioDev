@@ -1,5 +1,30 @@
 #services{
     background-color: var(--gray-100);
+    padding: 88px 120px;
+    justify-items: center;
+}
+#flexbox{
+    width: 888px;
+    display: flex;
+    flex-direction: row;
 
+    img{
+        padding-bottom: 20px;
+    }
     
+    & > div{
+        width: 280px;
+        height: 155px;
+
+        padding: 20px;
+
+        border-radius: 12px;
+        border: 2px solid var(--gray-300);
+    }
+
+    #title-item{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
 }
