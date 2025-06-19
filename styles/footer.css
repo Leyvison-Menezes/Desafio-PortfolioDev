@@ -1,0 +1,49 @@
+footer{
+    height: 787px;
+    background-image: url(../assets/images/Background_Contacts.png);
+    background-size: 100%;
+    object-fit: cover;
+
+    padding: 128px 120px;
+    justify-items: center;
+
+    #centerbox{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+        text-align: center;
+        
+        h2{
+            color: var(--purple);
+        }
+        padding-bottom: 48px;
+    }
+
+    #flexfooter{
+        width: 400px;
+        height: 320px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        a{
+            width: 400px;
+            height: 68px;
+            padding: 20px;
+            text-decoration: none;
+
+            background-color: var(--gray-300);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            img:nth-child(3){
+                width: 20px;
+                
+            }
+        }
+    }
+}

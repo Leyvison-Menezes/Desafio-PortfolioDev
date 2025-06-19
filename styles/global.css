@@ -36,6 +36,10 @@
     --text-sm: normal 14px/140% var(--maven-font);
 
 }
+h5{
+    font: var(--text-md);
+    color: var(--gray-500);
+}
 h4{
     font: var(--title-sm);
     color: var(--gray-600);
