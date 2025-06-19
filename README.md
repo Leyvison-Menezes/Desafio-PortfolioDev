@@ -23,14 +23,14 @@ README.md              → Este arquivo
 
 - **HTML5** – Estruturação semântica
 - **CSS3** – Estilização responsiva e organizada
-- **JavaScript** – *(caso aplicável, adicione aqui)*
 - **Git e GitHub** – Controle de versão e hospedagem
 
 ---
 
 ## 🎯 Objetivos do Desafio
 
-- ✅ Criar um layout estático e responsivo
+- ✅ Criar um layout estático
+- ✅ Aplicar conceitos de CSS Layout
 - ✅ Organizar o projeto em pastas claras e reutilizáveis
 - ✅ Aplicar boas práticas de semântica, acessibilidade e legibilidade
 - ✅ Consolidar o aprendizado em desenvolvimento front-end
@@ -39,8 +39,7 @@ README.md              → Este arquivo
 
 ## 🌐 Acesse o Projeto
 
-🔗 Repositório: [github.com/Leyvison-Menezes/Desafio-PortfolioDev](https://github.com/Leyvison-Menezes/Desafio-PortfolioDev)  
-🌍 Deploy (se houver): [adicione o link do seu GitHub Pages ou Vercel aqui]
+🔗 Repositório: [github.com/Leyvison-Menezes/Desafio-PortfolioDev](https://github.com/Leyvison-Menezes/Desafio-PortfolioDev)
 
 ---
 
@@ -50,7 +49,7 @@ Durante esse desafio, pude reforçar:
 
 - A importância da **organização de arquivos**
 - Boas práticas com HTML e CSS
-- Criação de layouts **limpos e responsivos**
+- Criação de layouts **limpos e organizados**
 - Estruturação de um **projeto realista de portfólio**
 
 ---
@@ -60,7 +59,7 @@ Durante esse desafio, pude reforçar:
 Sou fisioterapeuta e desenvolvedor fullstack em constante evolução. Este portfólio representa minha transição profissional e dedicação ao mundo da tecnologia. 
 
 🔗 **Vamos nos conectar!**  
-[LinkedIn](https://www.linkedin.com/in/seu-usuario) | [Instagram](https://instagram.com/seu-usuario) | [Portfólio](https://seusite.dev)
+[LinkedIn](https://www.linkedin.com/in/leyvison-menezes/) | [Instagram](https://instagram.com/leymenezs) 
 
 ---
 
@@ -71,4 +70,4 @@ Sinta-se à vontade para estudar, utilizar e modificar!
 
 ---
 
-> Projeto criado com 💻 por **Leyvison Menezes** para o desafio da Rocketseat.
+> Projeto criado por **Leyvison Menezes** para o desafio da Rocketseat.
