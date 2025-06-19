@@ -2,6 +2,7 @@ header{
     background-image: url(../assets/images/Background_Intro.png);
     background-size: 100%;
     object-fit: cover;
+    padding-bottom: 54px;
 }
 #info{
     padding-top: 120px;
@@ -11,6 +12,9 @@ header{
         display: flex;
         justify-content: center;
         padding-inline: 180px;
+        h2 span{
+            color: var(--red);
+        }
     }
     
     #avatar{

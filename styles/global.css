@@ -41,6 +41,20 @@
     width: 1366px;
     /* margin-inline: auto; */
 }
+.grid{
+    display: grid;
+}
+.gap24{
+    gap: 24px;
+}
+h4{
+    font: var(--title-sm);
+    color: var(--gray-600);
+}
+h3{
+    font: var(--text-md);
+    color: var(--gray-600);
+}
 h2{
     font: var(--subtitle);
     color: var(--gray-500);
@@ -54,5 +68,5 @@ h1{
 p{
     font: var(--text-sm);
     color: var(--gray-400);
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
 }
