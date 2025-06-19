@@ -4,7 +4,8 @@ header{
     object-fit: cover;
 }
 #info{
-    padding-block: 140px;
+    padding-top: 120px;
+    padding-bottom: 80px;
     padding-inline: 163px;
     div{
         display: flex;
@@ -42,4 +43,36 @@ header{
         text-align: center;
     }
 
+}
+#tags{
+    padding-bottom: 94px;
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 16px;
+        justify-content: center;
+    }
+    li{
+        /* width: 114px;
+        height: 40px; */
+        border-radius: 999px;
+        background-color: var(--gray-300);
+
+        display: flex;
+        padding-inline: 16px;
+        padding-block: 8px;
+        align-items: center;
+        justify-items: center;
+        gap: 8px;
+
+        p{
+            margin: 0;
+            padding: 0;
+        }
+    } 
+}
+
+header img{
+    display: flex;
+    justify-self: center;
 }
